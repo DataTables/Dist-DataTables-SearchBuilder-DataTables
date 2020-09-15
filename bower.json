@@ -1,5 +1,5 @@
 {
-    "name": "datatables.net-searchbuilder-bs",
+    "name": "datatables.net-searchbuilder-dt",
     "description": "Advanced Search Builder for DataTables with styling for [DataTables](http://datatables.net/)",
     "main": [
         "js/searchBuilder.datatables.js",
