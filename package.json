@@ -3,6 +3,7 @@
     "description": "SearchBuilder for DataTables with styling for [DataTables](https://datatables.net/)",
     "main": "js/searchBuilder.dataTables.js",
     "style": "css/searchBuilder.dataTables.css",
+    "types": "./types/searchBuilder.dataTables.d.ts",
     "version": "1.0.1",
     "files": [
         "css/**/*.css",
