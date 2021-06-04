@@ -4,25 +4,25 @@
     "main": "js/searchBuilder.dataTables.js",
     "style": "css/searchBuilder.dataTables.css",
     "types": "./types/searchBuilder.dataTables.d.ts",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "SearchBuilder",
- "Filtering",
- "Search",
-                "Datatables",
+        "Filtering",
+        "Search",
+        "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchbuilder": ">=1.0.1",
-        "datatables.net-dt": ">=1.10.24",
-        "jquery": ">=1.7"
+        "jquery": ">=1.7",
+        "datatables.net-dt": "^1.10.15",
+        "datatables.net-searchbuilder": "1.1.0"
     },
     "moduleType": [
         "globals",
