@@ -11,18 +11,18 @@
     ],
     "keywords": [
         "SearchBuilder",
-        "Filtering",
-        "Search",
-        "Datatables",
+ "Filtering",
+ "Search",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-dt": "^1.10.15",
-        "datatables.net-searchbuilder": "1.1.0"
+        "datatables.net-searchbuilder": ">=1.1.0",
+        "datatables.net-dt": ">=1.10.26-dev",
+        "jquery": ">=1.7"
     },
     "moduleType": [
         "globals",
