@@ -4,7 +4,7 @@
     "main": "js/searchBuilder.dataTables.js",
     "style": "css/searchBuilder.dataTables.css",
     "types": "./types/searchBuilder.dataTables.d.ts",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
