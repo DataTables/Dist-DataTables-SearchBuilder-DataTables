@@ -12,17 +12,17 @@
     ],
     "keywords": [
         "SearchBuilder",
-        "Filtering",
-        "Search",
-        "Datatables",
+ "Filtering",
+ "Search",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchbuilder": ">=1.1.0",
-        "datatables.net-dt": ">=1.10.25",
+        "datatables.net-searchbuilder": ">=1.2.2",
+        "datatables.net-dt": ">=1.11.3",
         "jquery": ">=1.7"
     },
     "moduleType": [
