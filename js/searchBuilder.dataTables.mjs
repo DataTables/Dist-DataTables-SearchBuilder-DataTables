@@ -8,5 +8,4 @@ import SearchBuilder from 'datatables.net-searchbuilder';
 
 
 
-
 export default DataTable;
