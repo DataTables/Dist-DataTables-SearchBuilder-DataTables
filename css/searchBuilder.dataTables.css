@@ -3,9 +3,8 @@ div.dt-button-collection {
   z-index: 2002 !important;
 }
 div.dt-button-collection div.dtsb-searchBuilder {
-  width: 99% !important;
-  padding-left: 10px !important;
-  padding-right: 10px !important;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
 }
 
 div.dt-button-collection.dtb-collection-closeable div.dtsb-titleRow {
@@ -248,6 +247,9 @@ html.dark div.dtsb-searchBuilder button.dtsb-button {
 }
 html.dark div.dtsb-searchBuilder button.dtsb-button:hover {
   background: rgba(179, 179, 179, 0.15);
+}
+html.dark div.dtsb-searchBuilder div.dtsb-logicContainer {
+  border: 1px solid #595b5e;
 }
 html.dark div.dtsb-searchBuilder .dtsb-greyscale {
   border-color: rgba(255, 255, 255, 0.2) !important;
