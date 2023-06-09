@@ -81,6 +81,7 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria input.dtsb-input {
   min-width: 5em;
   max-width: 20em;
   background-color: rgba(200, 200, 200, 0.3);
+  color: inherit;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-dropDown option.dtsb-notItalic,
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria input.dtsb-input option.dtsb-notItalic {
@@ -159,7 +160,7 @@ div.dtsb-searchBuilder button.dtsb-button {
   cursor: pointer;
   font-size: 0.88em;
   line-height: 1.6em;
-  color: black;
+  color: inherit;
   white-space: nowrap;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.1);
@@ -174,7 +175,7 @@ div.dtsb-searchBuilder button.dtsb-button {
   text-overflow: ellipsis;
 }
 div.dtsb-searchBuilder button.dtsb-button:hover {
-  background-color: #cecece !important;
+  background-color: #cecece;
   cursor: pointer;
 }
 div.dtsb-searchBuilder div.dtsb-logicContainer {
@@ -220,7 +221,8 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer button.dtsb-clearG
   width: 2em;
   margin: 0px;
 }
-div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-dropDown, div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria input.dtsb-input {
+div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-dropDown,
+div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria input.dtsb-input {
   border: 1px solid;
   border-radius: 3px;
 }
@@ -235,4 +237,18 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-value, div.d
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-condition option.dtsb-option, div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-data option.dtsb-option, div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-value option.dtsb-option {
   background-color: white;
+}
+
+html.dark div.dtsb-searchBuilder button, html.dark div.dtsb-searchBuilder select, html.dark div.dtsb-searchBuilder input {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+html.dark div.dtsb-searchBuilder button.dtsb-button {
+  border: 1px solid #595b5e;
+  background: rgba(255, 255, 255, 0.15);
+}
+html.dark div.dtsb-searchBuilder button.dtsb-button:hover {
+  background: rgba(179, 179, 179, 0.15);
+}
+html.dark div.dtsb-searchBuilder .dtsb-greyscale {
+  border-color: rgba(255, 255, 255, 0.2) !important;
 }
