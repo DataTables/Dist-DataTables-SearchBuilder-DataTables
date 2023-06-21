@@ -79,7 +79,7 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria input.dtsb-input {
   margin-right: 0.8em;
   min-width: 5em;
   max-width: 20em;
-  background-color: rgba(200, 200, 200, 0.3);
+  background-color: #eeeeee;
   color: inherit;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-dropDown option.dtsb-notItalic,
@@ -98,6 +98,11 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-inputCont span.
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-inputCont input.dtsb-value {
   width: 33%;
+}
+div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-inputCont select,
+div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-inputCont input {
+  height: 100%;
+  box-sizing: border-box;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-buttonContainer {
   margin-left: auto;
@@ -234,12 +239,12 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-data {
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-value, div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria input.dtsb-value {
   border-color: #0069ba;
 }
-div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-condition option.dtsb-option, div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-data option.dtsb-option, div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-value option.dtsb-option {
-  background-color: white;
-}
 
-html.dark div.dtsb-searchBuilder button, html.dark div.dtsb-searchBuilder select, html.dark div.dtsb-searchBuilder input {
-  background-color: rgba(255, 255, 255, 0.15);
+html.dark div.dtsb-searchBuilder button.dtsb-button,
+html.dark div.dtsb-searchBuilder select.dtsb-dropDown,
+html.dark div.dtsb-searchBuilder input.dtsb-input {
+  background-color: #424549 !important;
+  color-scheme: dark;
 }
 html.dark div.dtsb-searchBuilder button.dtsb-button {
   border: 1px solid #595b5e;
