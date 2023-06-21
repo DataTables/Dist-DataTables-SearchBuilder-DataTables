@@ -151,7 +151,9 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria input.dtsb-input {
   }
 }
 
-div.dtsb-searchBuilder button, div.dtsb-searchBuilder select, div.dtsb-searchBuilder input {
+div.dtsb-searchBuilder button,
+div.dtsb-searchBuilder select.dtsb-dropDown,
+div.dtsb-searchBuilder input {
   background-color: #f9f9f9;
 }
 div.dtsb-searchBuilder button.dtsb-button {
