@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/searchBuilder.dataTables.d.ts",
+            "style": "./css/searchBuilder.dataTables.css",
             "import": "./js/searchBuilder.dataTables.mjs",
-            "default": "./js/searchBuilder.dataTables.mjs",
-            "require": "./js/searchBuilder.dataTables.js"
+            "require": "./js/searchBuilder.dataTables.js",
+            "default": "./js/searchBuilder.dataTables.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
